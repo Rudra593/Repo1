@@ -1,0 +1,15 @@
+# age calculator program
+from datetime import date
+
+birth_year=int(input("Enter your year of birth"))
+birth_month=int(input("Enter your month of birth"))
+birth_date=int(input("Enter your date of birth"))
+
+birth_date=date(birth_year,birth_month,birth_date)
+today=date.today()
+
+age=today.year-birth date.year
+
+if(today.month,today.date)<(birth_date.month,birth_date.day):
+  age=age-1
+print("Age:"+str(age))
